@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*cabeçalho*/
+
+header.barra-nav {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: crimson;
+    height: 50px;
+    padding: 0 2%;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+.logo h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    color:#1b1b1c;
+}
+
+.menu {
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1b1b1c;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+/*principal*/
+
+main.principal {
+    width: 100%;
+    max-width: 1280px;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-image: url("imagem/banner-gourmet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-2 {
+    display: inline-block;
+    position: relative;
+    top: 90%;
+}
+
+.container-2 h2 {
+    color: #030807;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+/*sessao-1*/
+
+section.sessao-1 {
+    width: 100%;
+    max-width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.container-3 {
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%,-50%);
+}
+
+.img-about img {
+    width: 400px;
+}
+
+.text-about h2 {
+    position: relative;
+    top: 20%;
+    left: 40%;
+    color: #030807;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.text-about h3 {
+    position: relative;
+    top: 22%;
+    left: 45%;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.text-about p {
+    position: relative;
+    top: 23%;
+    left: 19%;
+    margin-top: 20px;
+    color: #1b1b1c;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+/*sessao-2*/
+
+section.sessao-2 {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 900px;
+    padding: 0 2%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.container-4 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-58%,-47%);
+}
+
+.text-sessao-2 {
+    margin-top: 3%;
+    margin-left:4%;
+}
+
+.text-sessao-2 h2 {
+  color: #030807;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.text-sessao-2 h3 {
+    color: #1a1919;
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.text-sessao-2 p {
+    color: #1b1b1c;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*sessao-3*/
+
+section.sessao-3 {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 700px;
+    padding: 0 2%;
+    background-color: white;
+}
+
+.container-5 {
+    display: inline-block;
+    position: relative;
+    top: 6%;
+    left: 10%;
+}
+
+.text-sessao-3 h2 {
+    color: #030807;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.text-sessao-3 p {
+    color:#0d0909;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form input[type=text] {
+    width: 100%;
+    padding: 10px 30px;
+    border-top:none;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+form input[type=text]:focus {
+    outline: 0;
+}
+
+form input[type=number] {
+    width: 100%;
+    padding: 10px 30px;
+    border-top:none;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none; 
+}
+
+form input[type=number]:focus {
+    outline: 0;
+}
+
+form input[type=date] {
+    width: 100%;
+    padding: 10px 30px;
+    border-top:none;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+form input[type=date]:focus {
+    outline: 0;
+}
+
+form input[type=submit] {
+    width: 30%;
+    padding: 10px 40px;
+    background-color: #0d0909;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+form input[type=submit]:hover {
+    
+    opacity: 1;
+}
+
+/*rodape*/
+
+footer.rodape {
+    width: 100%;
+    max-width: 1400px;
+    height: 200px;
+    background-color: black;
+}
+
+.text-rodape {
+    text-align: center;
+    position: relative;
+    top: 48%;
+}
+
+.text-rodape h2 {
+    color: #fafafafa;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+/*responsivo*/
+
+@media screen and (max-width:1074px){
+
+    header.barra-nav {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: crimson;
+        height: 50px;
+        padding: 0 2%;
+    }
+
+    .container-1 {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 16px 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color:#1b1b1c;
+    }
+
+    main.principal {
+        width: 100%;
+        max-width: 1200px;
+        height: 90vh;
+        margin: 0 auto;
+        padding: 0 2%;
+       
+    }
+    
+
+    section.sessao-1 {
+        width: 100%;
+        max-width: 1200px;
+        height: 1100px;
+        margin: 0 auto;
+        padding: 0 2%;
+        
+    }
+
+    .container-3 {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .img-about {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .img-about img {
+        width: 360px;
+    }
+
+    .text-about {
+        text-align: center;
+    }
+
+    .text-about h2 {
+        position: relative;
+        top: 20%;
+        left: 0%;
+        color: #030807;
+        font-size: 38px;
+        font-weight: lighter;
+    }
+
+    .text-about h3 {
+        position: relative;
+        top: 22%;
+        left: 0%;
+        color: black;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .text-about p {
+        position: relative;
+        top: 23%;
+        left: 0%;
+        margin-top: 20px;
+        color: #1b1b1c;
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    section.sessao-2 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 1100px;
+        padding: 0 2%;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        
+    }
+
+    .container-4 {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-52%,-53%);
+    }
+
+    .text-sessao-2 {
+        text-align: center;
+        margin-top: 2%;
+        margin-left:0%;
+    }
+
+    .img-sessao-2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .img-sessao-2 img {
+        width: 360px;
+    }
+
+    section.sessao-3 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 800px;
+        padding: 0 2%;
+    
+    }
+
+    .container-5 {
+        display: block;
+        position: relative;
+        top: 6%;
+        left: 0%;
+        text-align: center;
+    }
+
+    form input[type=submit] {
+        width: 40%;
+        padding: 10px 40px;
+        text-align: center;
+       
+    }
+
+    footer.rodape {
+        width: 100%;
+        max-width: 1400px;
+        height: 180px;
+        background-color: black;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width:768px){
+
+    header.barra-nav {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: crimson;
+        height: 50px;
+        padding: 0 2%;
+    }
+
+    .container-1 {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        padding: 16px 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color:#1b1b1c;
+    }
+
+    main.principal {
+        width: 100%;
+        max-width: 1200px;
+        height: 90vh;
+        margin: 0 auto;
+        padding: 0 2%;
+       
+    }
+    
+
+    section.sessao-1 {
+        width: 100%;
+        max-width: 1200px;
+        height: 1100px;
+        margin: 0 auto;
+        padding: 0 2%;
+        
+    }
+
+    .container-3 {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .img-about {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .img-about img {
+        width: 360px;
+    }
+
+    .text-about {
+        text-align: center;
+    }
+
+    .text-about h2 {
+        position: relative;
+        top: 20%;
+        left: 0%;
+        color: #030807;
+        font-size: 38px;
+        font-weight: lighter;
+    }
+
+    .text-about h3 {
+        position: relative;
+        top: 22%;
+        left: 0%;
+        color: black;
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .text-about p {
+        position: relative;
+        top: 23%;
+        left: 0%;
+        margin-top: 20px;
+        color: #1b1b1c;
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    section.sessao-2 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 1100px;
+        padding: 0 2%;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        
+    }
+
+    .container-4 {
+        display: block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-52%,-53%);
+    }
+
+    .text-sessao-2 {
+        text-align: center;
+        margin-top: 2%;
+        margin-left:0%;
+    }
+
+    .img-sessao-2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .img-sessao-2 img {
+        width: 360px;
+    }
+
+    section.sessao-3 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 800px;
+        padding: 0 2%;
+    
+    }
+
+    .container-5 {
+        display: block;
+        position: relative;
+        top: 6%;
+        left: 0%;
+        text-align: center;
+    }
+
+    form input[type=submit] {
+        width: 40%;
+        padding: 10px 40px;
+        text-align: center;
+       
+    }
+
+    footer.rodape {
+        width: 100%;
+        max-width: 1400px;
+        height: 180px;
+        background-color: black;
+    }
+
+    
+
+    
+
+
+    
+    
+    
+    
+
+
+    
+    
+}
+
+
+
+
